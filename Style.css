@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+    overscroll-behavior-x: none;
+}
+
+.main {
+    height: 110vh;
+    width: 100%;
+    background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)), url(http://thestatetimes.com/wp-content/uploads/2018/02/infotech.jpg) no-repeat center;
+    overflow: hidden;
+    background-size: cover;
+}
+
+nav {
+    display: flex;
+    width: 90%;
+    flex-direction: column;
+    padding-bottom: 0px;
+    margin: auto;
+}
+
+.up {
+    display: flex;
+    width: 100%;
+    height: 17vh;
+    border: none;
+    border-bottom: 1px solid wheat;
+}
+
+nav .logo {
+    width: 50%;
+    float: left;
+    padding-bottom: 0px;
+    position: relative;
+}
+
+.logo h1 {
+    position: absolute;
+    bottom: 30%;
+    left: 1%;
+}
+
+nav .sign {
+    width: 50%;
+    padding-bottom: 2px;
+    position: relative;
+}
+
+.sign button {
+    float: right;
+    position: absolute;
+    bottom: 30%;
+    right: 1%;
+    width: 100px;
+    height: 34px;
+    border-radius: 50px;
+    border: none;
+}
+
+nav ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-family: arial;
+    width: 50%;
+    margin-top: 10px;
+}
+
+ul li {
+    float: left;
+    width: 100px;
+    height: 40px;
+    background-color: transparent;
+    opacity: 1;
+    line-height: 36px;
+    text-align: center;
+    font-size: 17px;
+    color: white;
+}
+
+ul li a:hover {
+    color: rgba(243, 8, 67, 0.973);
+    background-color: rgba(243, 8, 67, 0.973);
+    border-radius: 7px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+
+li {
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+
+header {
+    margin: auto;
+    width: 80%;
+    text-align: center;
+    margin-top: 12%;
+    margin-left: 50%;
+    transform: translate(-50%, -50%);
+    color: seashell;
+}
+
+header h1 {
+    width: 100%;
+    font-size: 2.5rem;
+    font-weight: lighter;
+    font-family: sans-serif;
+}
+
+header p {
+    width: 100%;
+    color: rgb(199, 187, 187);
+    font-size: 1.6rem;
+    font-family: sans-serif;
+    font-weight: 1px;
+    margin-top: 2vh;
+}
+
+.form {
+    margin-top: 9vh;
+    width: 90%;
+    display: flex;
+    height: 14vh;
+    background-color: whitesmoke;
+    margin: auto;
+    border-radius: 50px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+form {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+form input {
+    width: 25%;
+    height: 90%;
+    margin: auto;
+    border: none;
+    border-right: 1px solid gray;
+    font-size: 17px;
+    outline: none;
+    background-color: whitesmoke;
+}
+
+form select {
+    width: 25%;
+    border: none;
+    outline: none;
+    background-color: whitesmoke;
+    margin-top: 0px;
+}
+
+.button {
+    width: 150px;
+    height: 50px;
+    border-radius: 50px;
+    border: none;
+    background-color: rgba(243, 8, 67, 0.973);
+    color: whitesmoke;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.facilty header {
+    display: flex;
+    justify-content: space-between;
+    color: black;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.facilty header h1 {
+    font-size: 30px;
+    letter-spacing: 3px;
+    color: rgb(59, 56, 56);
+}
+
+
+    height: 123vh;
+    background-color: rgba(114, 116, 116, 0.055);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
