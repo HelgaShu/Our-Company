@@ -112,6 +112,43 @@ header p {
     font-weight: 1px;
     margin-top: 2vh;
 }
+.form {
+    margin-top: 9vh;
+    width: 90%;
+    display: flex;
+    height: 14vh;
+    background-color: whitesmoke;
+    margin: auto;
+    border-radius: 50px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+form {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+form input {
+    width: 25%;
+    height: 90%;
+    margin: auto;
+    border: none;
+    border-right: 1px solid gray;
+    font-size: 17px;
+    outline: none;
+    background-color: whitesmoke;
+}
+
+form select {
+    width: 25%;
+    border: none;
+    outline: none;
+    background-color: whitesmoke;
+    margin-top: 0px;
+}
+
 .destinations-text {
     margin: auto;
     text-align: center;
@@ -172,7 +209,7 @@ header p {
 }
 
 a {
-    color: fuchsia;
+    color: #2762eb;
     text-decoration: none;
 }
 .card {
@@ -212,4 +249,182 @@ a {
 }
 .tag-purple {
     background-color: #3d1d94;
+}
+form {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+form input {
+    width: 25%;
+    height: 90%;
+    margin: auto;
+    border: none;
+    border-right: 1px solid gray;
+    font-size: 17px;
+    outline: none;
+    background-color: whitesmoke;
+}
+.footer {
+    background-color: whitesmoke;
+    height: 93vh;
+}
+.footerabout {
+    height: 85%;
+}
+.footertext {
+    width: 94%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 90%;
+}
+.about1 {
+    width: 30%;
+    line-height: 2rem;
+}
+.about1 p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: lighter;
+    font-size: 14.5px;
+    color: gray;
+}
+.ab2 {
+    font-family: 'Poppins', sans-serif;
+}
+.ab2 ul li {
+    font-family: 'Poppins', sans-serif;
+    font-weight: lighter;
+    font-size: 14.5px;
+    color: gray;
+    list-style: none;
+    transition: transform 0.5s ease;
+    cursor: pointer;
+    float: left;
+}
+.ab2 ul li:hover {
+    background-color: transparent;
+    color: rgba(243, 8, 67, 0.973);
+    transform: translateX(1vh);
+}
+.ab2text ul {
+    width: 50%;
+}
+.ab2text {
+    display: flex;
+    margin-top: 3vh;
+}
+.copyright {
+    height: 15%;
+    width: 94%;
+    margin: auto;
+    border-top: 1px solid grey;
+    text-align: center;
+    padding: 5px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: lighter;
+    font-size: 14.5px;
+    color: gray;
+}
+a {
+    color: #2762eb;
+    text-decoration: none;
+}
+.container {
+    width: 800px;
+    background-color: #fff;
+    display: flex;
+    border-radius: 6px;
+    box-shadow: 0px 2px 20px rgba(0, 0, 0, 1);
+    height: 80vh;
+    margin: auto;
+    margin-top: 15vh;
+}
+.checkbox-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    font-size: 14px;
+    margin-bottom: 15px;
+    margin-top: 13px;
+}
+.checkbox-container a {
+    margin-left: auto;
+    text-decoration: none;
+    color: blue;
+}
+.btnX {
+    cursor: pointer;
+    background-color: #141c2c;
+    border: 2px solid #141c2c;
+    border-radius: 3px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-family: inherit;
+    font-weight: bold;
+    font-size: 14px;
+    width: 100%;
+}
+#xform {
+    border-right: 1px solid #ecf2ff;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
+.formX {
+    width: 100%;
+    height: 50px;
+    position: relative;
+    overflow: hidden;
+}
+label {
+    display: inline-block;
+    margin-bottom: 0px;
+}
+.formX input:not([type="checkbox"]) {
+    width: 100%;
+    background: transparent;
+    font-family: inherit;
+    font-size: 14px;
+    border: none;
+    outline: none;
+    margin-top: 0;
+    padding: 10px;
+    bottom: 3px;
+    padding-top: 20px;
+    padding-left: 5px;
+}
+.formX label {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    border-bottom: 1px solid black;
+}
+.features {
+    flex: 1.5;
+    padding: 40px;
+}
+
+.feature {
+    position: relative;
+    padding-left: 30px;
+    margin: 15px 0;
+}
+.feature h3 {
+    margin: 0;
+}
+.feature p {
+    font-size: 14px;
+    line-height: 1.8;
+    margin: 5px 0;
 }
