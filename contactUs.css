@@ -1,0 +1,226 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    overflow-x: hidden;
+    overscroll-behavior-x: none;
+    background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)), url(https://www.stratospherenetworks.com/blog/wp-content/uploads/2019/06/cloud-communications-concept.jpg) ;
+}
+.main {
+    height: 110vh;
+    width: 100%;
+    
+}
+nav {
+    display: flex;
+    width: 90%;
+    flex-direction: column;
+    padding-bottom: 0px;
+    margin: auto;
+}
+.up {
+    display: flex;
+    width: 100%;
+    height: 17vh;
+    border: none;
+    border-bottom: 1px solid wheat;
+}
+nav .logo {
+    width: 50%;
+    float: left;
+    padding-bottom: 0px;
+    position: relative;
+}
+.logo h1 {
+    position: absolute;
+    bottom: 30%;
+    left: 1%;
+}
+nav .signing {
+    width: 50%;
+    padding-bottom: 2px;
+    position: relative;
+}
+
+.signing button {
+    float: right;
+    position: absolute;
+    bottom: 30%;
+    right: 1%;
+    width: 100px;
+    height: 34px;
+    border-radius: 50px;
+    border: none;
+}
+nav ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-family: arial;
+    width: 50%;
+    margin-top: 10px;
+}
+ul li {
+    float: left;
+    width: 100px;
+    height: 40px;
+    background-color: transparent;
+    opacity: 1;
+    line-height: 36px;
+    text-align: center;
+    font-size: 17px;
+    color: white;
+}
+ul li a:hover {
+    color: rgba(243, 8, 67, 0.973);
+    background-color: rgba(243, 8, 67, 0.973);
+    border-radius: 7px;
+}
+ul li a {
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+li {
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+header {
+    margin: auto;
+    width: 80%;
+    text-align: center;
+    margin-top: 12%;
+    margin-left: 50%;
+    transform: translate(-50%, -50%);
+    color: seashell;
+}
+header h1 {
+    width: 100%;
+    font-size: 2.5rem;
+    font-weight: lighter;
+    font-family: sans-serif;
+}
+header p {
+    width: 100%;
+    color: rgb(199, 187, 187);
+    font-size: 1.6rem;
+    font-family: sans-serif;
+    font-weight: 1px;
+    margin-top: 2vh;
+}
+.destinations-text {
+    margin: auto;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(59, 56, 56);
+    font-weight: lighter;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.line {
+    height: 3px;
+    width: 70px;
+    margin-top: 15px;
+    background-color: rgba(243, 8, 67, 0.973);
+}
+.container1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    width: 940px;
+    margin: auto;
+    margin-top: 7vh;
+}
+.card {
+    background-color: #fff;
+    border-radius: 10px;
+    width: 300px;
+    transition: all 0.3s ease-out;
+}
+.card-header img {
+    width: 100%;
+    height: 300px;
+}
+.card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    
+    font-family: 'Poppins', sans-serif;
+}
+.tag {
+    background-color: #777;
+    border-radius: 50px;
+    font-size: 12px;
+    margin: 0;
+    color: #fff;
+    padding: 2px 10px;
+    text-transform: uppercase;
+}
+.tag-purple {
+    background-color: #3d1d94;
+}
+.tag-body p {
+    font-size: 13px;
+    margin: 0px 0px 40px;
+}
+
+a {
+    color: fuchsia;
+    text-decoration: none;
+}
+.card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 2px 20px rgb(0, 0, 0, 1);
+    overflow: hidden;
+    width: 
+        300px;
+    transition: all 0.3s ease-out;
+}
+.card:hover {
+    transform: scale(1.1);
+}
+.card-header img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+.card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 20px;
+    min-height: 250px;
+}
+.tag {
+    background-color: #777;
+    border-radius: 50px;
+    font-size: 12px;
+    margin: 0;
+    color: #fff;
+    padding: 2px 10px;
+    text-transform: uppercase;
+}
+.tag-teal {
+    background-color: #92d4c4;
+}
+.tag-purple {
+    background-color: #3d1d94;
+}
+.button {
+    width: 100px;
+    height: 25px;
+    border-radius: 50px;
+    border: none;
+    background-color: rgba(243, 8, 67, 0.973);
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
