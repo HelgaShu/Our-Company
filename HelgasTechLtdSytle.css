@@ -174,6 +174,7 @@ form select {
 }
 .container1 {
     display: grid;
+    flex-wrap: wrap;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
     width: 940px;
@@ -341,6 +342,7 @@ a {
     width: 800px;
     background-color: #fff;
     display: flex;
+    flex-wrap: wrap;
     border-radius: 6px;
     box-shadow: 0px 2px 20px rgba(0, 0, 0, 1);
     height: 80vh;
@@ -444,4 +446,38 @@ label {
     font-size: 14px;
     line-height: 1.8;
     margin: 5px 0;
+}
+
+@media screen and (min-width : 700px)
+{
+    .container1, .container
+    {
+        width: 85%;      
+        margin-left: auto;
+        margin-right: auto;
+      
+    }
+     .card
+    {
+/*        grid-column: 1/-1;     */
+      
+        width: 100%; 
+    }
+    
+}
+
+
+@media screen and (min-width : 400px)
+{
+    .container1, .container
+    {
+       
+        width: 100%; 
+    }
+   
+     .card 
+    {
+         width: 85%;
+        
+    }
 }
