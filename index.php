@@ -1,1 +1,1 @@
-<?php include_once("HelgaTechLtd.html"); ?>
+<?php include_once("HelgasTechLtd.html"); ?>
